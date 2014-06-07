@@ -2,7 +2,7 @@
 xcode-select --install
 
 # install homebrew
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 # essential
@@ -45,13 +45,13 @@ brew install brew-cask
 
 
 # essential
-brew cask install -appdir="/Applications" <app>
+#brew cask install -appdir="/Applications" <app>
 brew cask install lastpass-universal
 brew cask install dropbox
 brew cask install vlc
 brew cask install the-unarchiver
 brew cask install daisydisk
-brew cask install istats-menus
+brew cask install istat-menus
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install calibre
