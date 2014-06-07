@@ -13,13 +13,12 @@ brew install wget
 
 
 # terminal
-brew install zsh
+brew install zsh zsh-completions
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 #brew install z
 #brew install ag
 #brew install ack
 #brew install ffind
-
 
 # dev - docker
 # see http://docs.docker.io/installation/mac/
